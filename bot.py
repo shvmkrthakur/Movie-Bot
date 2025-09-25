@@ -17,7 +17,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes, CallbackQuer
 TOKEN = "8088290975:AAElSIu_GU0Z3WJFOJG5D9Y_No1fnnK69UY"  # <<<< keep your real token here (trimmed in this file for safety if needed)
 # Replace the above token string with your actual token when deploying
 
-SOURCE_CHANNEL = -1003008412138
+SOURCE_CHANNEL = -1003144702314
 JOIN_CHANNELS = ["@instahubackup", "@instahubackup2"]
 
 # verification storage
