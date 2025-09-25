@@ -341,7 +341,7 @@ async def start_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await update.message.reply_text(
                 f"👋 Welcome {username}!\n\n"
                 "This bot helps you get videos from [Insta Hub](https://t.me/+te3K1qRT9i41ZWU1).\n\n"
-                "🔒 Please verify yourself to unlock access. If you done the bots earilier then contact bot admin @Piyush76785 \n\n How to do - [Click Here](https://nimble-peony-bcecdc.netlify.app/howtoverify.mp4).\",
+                "🔒 Please verify yourself to unlock access. If you done the bots earilier then contact bot admin @Piyush76785 \n\n How to do - [Click Here](https://nimble-peony-bcecdc.netlify.app/howtoverify.mp4).",
                 reply_markup=verify_menu_kb(),
                 parse_mode="Markdown"
             )
