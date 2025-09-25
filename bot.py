@@ -341,7 +341,7 @@ async def start_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await update.message.reply_text(
                 f"👋 Welcome {username}!\n\n"
                 "This bot helps you get videos from [Insta Hub](https://t.me/+te3K1qRT9i41ZWU1).\n\n"
-                "🔒 Please verify yourself to unlock access. If you done the bots earilier then contact bot admin @Piyush76785",
+                "🔒 Please verify yourself to unlock access. If you done the bots earilier then contact bot admin @Piyush76785 \n\n How to do - [Click Here](https://nimble-peony-bcecdc.netlify.app/howtoverify.mp4).\",
                 reply_markup=verify_menu_kb(),
                 parse_mode="Markdown"
             )
@@ -402,7 +402,7 @@ async def start_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 await update.message.reply_text(f"✅ Sent {sent} video(s).")
         else:
             await update.message.reply_text(
-                "🔒 You haven’t verified yet.\n\nPlease complete verification first to unlock video access.If you done the bots earilier then contact bot admin @Piyush76785",
+                "🔒 You haven’t verified yet.\n\nPlease complete verification first to unlock video access.If you done the bots earilier then contact bot admin @Piyush76785.\n\n How to do - [Click Here](https://nimble-peony-bcecdc.netlify.app/howtoverify.mp4)",
                 reply_markup=verify_menu_kb()
             )
         return
@@ -432,7 +432,7 @@ async def join_check_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
         else:
             await query.edit_message_text(
                 f"👋 Welcome {username}!\n\n"
-                "Before accessing videos, please verify yourself by sending two screenshots + UPI. If you done the bots earilier then contact bot admin @Piyush76785",
+                "Before accessing videos, please verify yourself by sending two screenshots + UPI. If you done the bots earilier then contact bot admin @Piyush76785 \n\n How to do - [Click Here](https://nimble-peony-bcecdc.netlify.app/howtoverify.mp4)",
                 reply_markup=verify_menu_kb(),
                 parse_mode="Markdown"
             )
@@ -479,7 +479,7 @@ async def close_ads_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
         )
     else:
         await query.edit_message_text(
-            f"👋 Hi {username}!\n\nPlease complete verification first to unlock 24-hour video access. Contact Admin @Piyush76785 If you done this bot .",
+            f"👋 Hi {username}!\n\nPlease complete verification first to unlock 24-hour video access. Contact Admin @Piyush76785 If you done this bot.\n\n How to do - [Click Here](https://nimble-peony-bcecdc.netlify.app/howtoverify.mp4)",
             reply_markup=verify_menu_kb()
         )
 
